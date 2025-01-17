@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#파이썬 설치
+sudo apt install python3 -y
+python3 --version
+
+#PIP 설치
+sudo apt install python3-pip -y
+pip3 --version
+
+#Python 모듈을 빌드할 때 필요한 개발 도구 설치
+sudo apt install build-essential libssl-dev libffi-dev python3-dev -y
+
+#파이썬 프로젝트 관리를 위해 가상환경 철치
+sudo apt install python3-venv -y
